@@ -1,4 +1,4 @@
-# Angular 17 Project
+# Property Managment (Angular 17 Project)
 This project is an Angular 17 application built using standalone components and Angular Material. It provides functionalities for managing properties files, including viewing, adding, editing, and deleting properties via a dialog interface.
 
 ## Prerequisites
@@ -10,7 +10,7 @@ Verify the installation by running :
 	 node -v
 Angular CLI: Install globally using npm:
 
-	npm install -g @angular/cli
+	npm install -g @angular/cli@17
 ## Installation
 Clone the repository to your local system using gitbash command:
 
