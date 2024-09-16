@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Node.js**: Version 20.x or above.
+- **NPM**: Version 10.x or above.
+- **Angular CLI**: Version 17.x or above.
+
+To check if you have Node.js, npm, and Angular CLI installed, run the following commands:
+
+```bash
+node -v
+npm -v
+ng version
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
