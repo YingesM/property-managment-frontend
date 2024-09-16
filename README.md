@@ -1,27 +1,34 @@
-# PropertyManagmentFrontend
+# Angular 17 Project
+This project is an Angular 17 application built using standalone components and Angular Material. It provides functionalities for managing properties files, including viewing, adding, editing, and deleting properties via a dialog interface.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+## Prerequisites
+To run this project, ensure you have the following software installed on your local machine:
 
-## Development server
+Node.js: Download the latest LTS version from the official website.
+Verify the installation by running : 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+	 node -v
+Angular CLI: Install globally using npm:
 
-## Code scaffolding
+	npm install -g @angular/cli
+## Installation
+Clone the repository to your local system using gitbash command:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+	git clone https://github.com/your-username/your-repository.git
+Change to the repository directory:
 
-## Build
+	cd repositoryName
+Install all the dependencies listed in package.json by running:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+	npm install.
+## Running the Application
+To start the development server and run the project locally:
 
-## Running unit tests
+	ng serve
+Once the server starts, open your browser and navigate: http://localhost:4200/
+The application will automatically reload if you change any of the source files.
+## Build for Production
+To build the application for production:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+	ng build --prod
+The build artifacts will be stored in the dist/ directory.
