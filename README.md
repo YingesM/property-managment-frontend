@@ -14,7 +14,7 @@ Angular CLI: Install globally using npm:
 ## Installation
 Clone the repository to your local system using gitbash command:
 
-	git clone https://github.com/your-username/your-repository.git
+	git clone https://github.com/YingesM/property-managment-frontend.git
 Change to the repository directory:
 
 	cd repositoryName
