@@ -1,0 +1,58 @@
+h1 {
+    padding: 0 1rem;
+    color: #cecaca;
+  }
+  
+  h2 {padding: 1rem;}
+  .mat-list-item{
+   
+  }
+  mat-toolbar{
+    position:fixed;
+    top:0;
+    z-index: 2;
+    background-color: rgba(5, 57, 136, 0.897);
+   
+  }
+  
+  mat-sidenav-container {
+    height:100%;
+    margin-top: 1px;
+    
+    
+  }
+  
+  // Move the content down so that it won't be hidden by the toolbar
+  mat-sidenav {
+    padding-top: 1.5rem;
+    background-color: rgba(5, 57, 136, 0.897);
+    transition: width 0.3s ease;
+    margin-top: 65px;
+    width: 20%;
+    @media screen and (min-width: 600px) {
+      padding-top: 1.5rem;
+      margin-top: 65px;
+    }
+  .dashboardicon{
+    color: #d3cece;
+  }
+    .entry{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding:0.75rem;
+    }
+  
+  }
+  
+  // Move the content down so that it won't be hidden by the toolbar
+  mat-sidenav-content{
+    padding-top: 3.5rem;
+    @media screen and (min-width: 600px) {
+        padding-top: 4rem;
+    }
+  }
+  
+  .expanded {
+    width: 250px;   
+  }

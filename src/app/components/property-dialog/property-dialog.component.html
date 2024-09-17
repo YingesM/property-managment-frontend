@@ -1,0 +1,22 @@
+<h1 mat-dialog-title>{{ data.isEdit ? 'Edit Property' : 'Add Property' }}</h1>
+<div mat-dialog-content>
+  <mat-form-field *ngIf="!data.isEdit">
+    <mat-label>Key</mat-label>
+    <input matInput [formControl]="keyControl" />
+    <mat-error *ngIf="keyControl.hasError('required')">
+      Please enter a key
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Value</mat-label>
+    <input matInput [formControl]="valueControl" />
+    <mat-error *ngIf="valueControl.hasError('required')">
+      Please enter a value
+    </mat-error>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions align="end">
+  <button mat-flat-button (click)="save()" color="primary" [disabled]="formInvalid()">{{ data.isEdit ? 'Update' : 'Add' }}</button>
+  <button mat-flat-button (click)="cancel()" cdkFocusInitial color="warn">Cancel</button>
+ 
+</div>

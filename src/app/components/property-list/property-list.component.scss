@@ -1,0 +1,52 @@
+.container {
+  padding: 16px;
+}
+
+.table-container {
+  overflow-x: auto;  /* Enables horizontal scrolling */
+  display: block;     /* Ensures the container behaves like a block element */
+}
+
+table {
+  width: 100%;        /* Ensures the table occupies full width */
+  min-width: 600px;   /* Set a reasonable minimum width for the table */
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+button {
+  margin-left: 8px;
+}
+
+.mat-mdc-header-cell, .mat-mdc-cell {
+  border-color: rgb(211, 209, 208);
+}
+
+::ng-deep .mat-tooltip {
+  background-color: #ff5722 !important;  /* Change to your desired color */
+  color: #ffffff !important;             /* Optional: Change text color */
+}
+
+.tab-header {
+  color: rgba(13, 68, 196, 0.811);
+}
+
+mat-toolbar {
+  padding: 8px 16px;  /* Toolbar padding */
+}
+
+.search-field {
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 300px;
+}
+
+.mat-row {
+  height: auto;
+}
+
+.mat-cell {
+  padding: 1px 1px 1px 0px;
+}
